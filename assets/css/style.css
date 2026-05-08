@@ -1,0 +1,125 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/**/
+/* import css */
+@import "./color.css";
+/**/
+/* font css */
+:root {
+    --font-roboto:Roboto;
+}
+/**/
+/* Classes Gerais */
+header.menu-navigation {
+    width:100%;
+    padding:30px 2%;
+    background-color:var(--color-one);
+}
+
+header.menu-navigation .flex-position {
+    align-items:center;
+    justify-content:space-between;
+}
+
+.wrapper-leftMenu {
+    display:flex;
+    align-items:center;
+    gap:0.4rem;
+}
+
+
+.icon-menuAside > img{
+    width:35px;
+    height:35px;
+    cursor:pointer;
+}
+
+.logo-interface {
+    max-width:100px;
+}
+
+.logo-interface a img {
+    width: 100%;
+}
+
+.input-search {
+    display:flex;
+    align-items:center;
+}
+
+.input-search input[type=search] {
+    width:450px;
+    padding:12px 30px;
+    border: 1px solid var(--color-two);
+    border-radius: 20px 0 0 20px;
+    font-size: 1rem;
+}
+
+.space-loop {
+ padding:12px 30px;
+ border:1px solid var(--color-two);
+ border-left: none; 
+ border-radius: 0 20px 20px 0; 
+ cursor:pointer;
+}
+
+.group-items {
+    display:flex;
+    align-items: center;
+    gap:1rem;
+    cursor: pointer;
+}
+
+.icon-video i {
+    color:var(--color-tree);
+    font-size: 1.4rem;
+}
+
+.bell-icon i {
+    color:var(--color-tree);
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.img-profile img {
+    width:37px;
+    height:37px;
+    border-radius:20px;
+    cursor: pointer;
+}
+
+/* section section-buttons */
+section.section-buttons {
+    width: 100%;
+    padding:30px 2%;
+}
+
+section.section-buttons .flex-position {
+    justify-content: center;
+    align-items: center;
+    gap:0.4rem;
+}
+
+.button-nav a {
+    padding:10px 30px;
+    background-color:var(--color-four);
+    border-radius:10px;
+    color:var(--color-tree);
+    font-size:1rem;
+    font-family:var(--font-roboto);
+    font-weight:600;
+
+}
+
+.button-nav .active-btn {
+    color:var(--color-one);
+    background-color:var(--color-tree);
+}
+
+/**/
+/* section session-videos */
+section .session-videos {
+    width: 100%;
+    background-color:var(--color-one);
+}
+/**/
