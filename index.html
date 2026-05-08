@@ -2,6 +2,7 @@
 <html lang="pt-br">
 
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Youtube</title>
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/resete.css" />
     <link rel="stylesheet" href="./assets/css/frame.css" />
+    <link rel="stylesheet" href="./assets/css/media.css" />
     <!---->
 </head>
 
@@ -43,13 +45,22 @@
                     </div>
                 </div>
             </div>
+
+            <div class="wrapper-mobile">
+                <div class="input-mobile">
+                    <input type="search" placeholder="Pesquisar" />
+                    <div class="space-loop">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <!---->
     <!--section-buttons-->
     <section class="section-buttons">
         <div class="container-bg">
-             <div class="flex-position">
+            <div class="flex-position">
                 <div class="button-nav">
                     <a class="active-btn" href="#">Tudo</a>
                 </div>
@@ -57,7 +68,7 @@
                     <a href="#">Música</a>
                 </div>
                 <div class="button-nav">
-                    <a  href="#">JavaScript</a>
+                    <a href="#">JavaScript</a>
                 </div>
                 <div class="button-nav">
                     <a href="#">API</a>
@@ -80,16 +91,243 @@
                 <div class="button-nav">
                     <a href="#">Notícias</a>
                 </div>
-             </div>
+            </div>
         </div>
     </section>
     <!---->
     <!--section session-videos-->
     <section class="session-videos">
         <div class="container-bg">
-             <div class="grid-compart">
-                
-             </div>
+            <div class="grid-compart">
+                <div class="box-video">
+                    <div class="cart-video">
+                        <img src="./assets/img/img-video1.jfif" alt="img-video1" />
+                    </div>
+                    <div class="content-desk">
+                        <div class="img-user">
+                            <img class="img-thumb" src="./assets/img/img-podcast.jpg" alt="img-podcast" />
+                        </div>
+                        <div class="title-desk">
+                            <h2>Demissão em Massa: PROGRAMAÇÃO AINDA <br> É A PROFISSÃO DO FUTURO EM 2026?</h2>
+                            <div class="sub-register">
+                                <h3>Talk Flow <i class="bi bi-check-circle-fill"></i></h3>
+                            </div>
+                            <div class="text-vizu">
+                                <p>258 mil vizualizações ● há 1 semana</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-video">
+                    <div class="cart-video">
+                        <img class="img-thumb" src="./assets/img/img-video2.avif" alt="img-video2" />
+                    </div>
+                    <div class="content-desk">
+                        <div class="img-user">
+                            <img class="img-thumb" src="./assets/img/img-python.jpg" alt="img-python" />
+                        </div>
+                        <div class="title-desk">
+                            <h2>PySide6 Aula 3: Widgets de entrada - QLineEdit,Radio CheckBox e Validação ✅💻</h2>
+                            <div class="sub-register">
+                                <h3>Mundo Python</h3>
+                            </div>
+                            <div class="text-vizu">
+                                <p>15 vizualizações ● há 1 dia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-video">
+                    <div class="cart-video">
+                        <img class="img-thumb" src="./assets/img/img-video3.avif" alt="img-video3" />
+                    </div>
+                    <div class="content-desk">
+                        <div class="img-user">
+                            <img src="./assets/img/img-rei.jpg" alt="img-rei" />
+                        </div>
+                        <div class="title-desk">
+                            <h2>O Mínimo para Criar um Site com Claude Code (Passo a Passo)</h2>
+                            <div class="sub-register">
+                                <h3>O Rei dos Sites</h3>
+                            </div>
+                            <div class="text-vizu">
+                                <p>2,7 mil vizualizações ● há 3 dias</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-video">
+                    <div class="cart-video">
+                        <img class="img-thumb" src="./assets/img/img-video4.jpg" alt="img-video4" />
+                    </div>
+                    <div class="content-desk">
+                        <div class="img-user">
+                            <img src="./assets/img/img-tech.jpg" alt="img-tech" />
+                        </div>
+                        <div class="title-desk">
+                            <h2>O JEITO CERTO DO TDHA ESTUDAR PROGRAMAÇÃO</h2>
+                            <div class="sub-register">
+                                <h3>Área Tech Brasil<i class="bi bi-check-circle-fill"></i></h3>
+                            </div>
+                            <div class="text-vizu">
+                                <p>35 mil vizualizações ● há 1 ano</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-video">
+                    <div class="cart-video">
+                        <img class="img-thumb" src="./assets/img/img-video5.jpg" alt="img-video5" />
+                    </div>
+                    <div class="content-desk">
+                        <div class="img-user">
+                            <img src="./assets/img/img-tylty.jpg" alt="img-tylty" />
+                        </div>
+                        <div class="title-desk">
+                            <h2>QUEM É O JOGADOR PROFISSIONAL? Feat. Ronaldinho Gaúcho</h2>
+                            <div class="sub-register">
+                                <h3>Lucas TYLTY <i class="bi bi-check-circle-fill"></i></h3>
+                            </div>
+                            <div class="text-vizu">
+                                <p>3,5 mil vizualizações ● há 1 mês</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-video">
+                    <div class="cart-video">
+                        <img class="img-thumb" src="./assets/img/img-video6.jpg" alt="img-video6" />
+                    </div>
+                    <div class="content-desk">
+                        <div class="img-user">
+                            <img src="./assets/img/img-tnt.jpg" alt="img-tnt" />
+                        </div>
+                        <div class="title-desk">
+                            <h2>BAYERN 1X1 PSG | SEMFINAL - VOLTA | <br> CHAMPIONS LEAGUE</h2>
+                            <div class="sub-register">
+                                <h3>TNT Sports Brasil <i class="bi bi-check-circle-fill"></i></h3>
+                            </div>
+                            <div class="text-vizu">
+                                <p>1,3 mil vizualizações ● há 1 dia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-video">
+                    <div class="cart-video">
+                        <img class="img-thumb" src="./assets/img/img-video7.jpg" alt="img-video7" />
+                    </div>
+                    <div class="content-desk">
+                        <div class="img-user">
+                            <img src="./assets/img/img-nerds.jpg" alt="img-nerds" />
+                        </div>
+                        <div class="title-desk">
+                            <h2>CLAUDE - A I.A. QUE MUDOU A INTERNET PRA SEMPRE</h2>
+                            <div class="sub-register">
+                                <h3>Nerds de Negócios<i class="bi bi-check-circle-fill"></i></h3>
+                            </div>
+                            <div class="text-vizu">
+                                <p>1,38 mil vizualizações ● há 2 dia</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-video">
+                    <div class="cart-video">
+                        <img class="img-thumb" src="./assets/img/img-video8.jfif" alt="img-video8" />
+                    </div>
+                    <div class="content-desk">
+                        <div class="img-user">
+                            <img src="./assets/img/img-club.jpg" alt="img-club" />
+                        </div>
+                        <div class="title-desk">
+                            <h2>Projeto Prático de Programação <br> | Criando uma tela de login | html + css</h2>
+                            <div class="sub-register">
+                                <h3>Dev Club | Programação <i class="bi bi-check-circle-fill"></i></h3>
+                            </div>
+                            <div class="text-vizu">
+                                <p>39 mil vizualizações ● há 2 anos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-video">
+                    <div class="cart-video">
+                        <img class="img-thumb" src="./assets/img/img-video9.jfif" alt="img-video9" />
+                    </div>
+                    <div class="content-desk">
+                        <div class="img-user">
+                            <img src="./assets/img/img-danki.jpg" alt="img-danki" />
+                        </div>
+                        <div class="title-desk">
+                            <h2>BAYERN 1X1 PSG | SEMFINAL - VOLTA | <br> CHAMPIONS LEAGUE</h2>
+                            <div class="sub-register">
+                                <h3>Danki Code <i class="bi bi-check-circle-fill"></i></h3>
+                            </div>
+                            <div class="text-vizu">
+                                <p>8,5 mil vizualizações ● há 4 anos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-video">
+                    <div class="cart-video">
+                        <img class="img-thumb" src="./assets/img/img-video10.jpg" alt="img-video10" />
+                    </div>
+                    <div class="content-desk">
+                        <div class="img-user">
+                            <img src="./assets/img/img-club.jpg" alt="img-club" />
+                        </div>
+                        <div class="title-desk">
+                            <h2>Como Cria o Spotify Usando HTML, CSS E JAVASCRIPT do Zero!</h2>
+                            <div class="sub-register">
+                                <h3>DevClub | Programação</h3>
+                            </div>
+                            <div class="text-vizu">
+                                <p>37 mil vizualizações ● há 1 ano</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-video">
+                    <div class="cart-video">
+                        <img class="img-thumb" src="./assets/img/img-video11.webp" alt="img-video11" />
+                    </div>
+                    <div class="content-desk">
+                        <div class="img-user">
+                            <img src="./assets/img/img-manual.jpg" alt="img-manual" />
+                        </div>
+                        <div class="title-desk">
+                            <h2>BORAVÊ como é um DATA CENTER por dentro! #Boravê</h2>
+                            <div class="sub-register">
+                                <h3>Manual do Mundo <i class="bi bi-check-circle-fill"></i></h3>
+                            </div>
+                            <div class="text-vizu">
+                                <p>1 mil vizualizações ● há 5 meses</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-video">
+                    <div class="cart-video">
+                        <img class="img-thumb" src="./assets/img/img-video12.jpg" alt="img-video12" />
+                    </div>
+                    <div class="content-desk">
+                        <div class="img-user">
+                            <img src="./assets/img/img-rigobeli.jpg" alt="img-rigobeli" />
+                        </div>
+                        <div class="title-desk">
+                            <h2>O GOOGLE fez de novo: Crie e publique 100% GRÁTIS com o Google AI Studio</h2>
+                            <div class="sub-register">
+                                <h3>Eli Rigobeli</h3>
+                            </div>
+                            <div class="text-vizu">
+                                <p>346 mil vizualizações ● há 5 meses</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!---->
