@@ -10,6 +10,10 @@
     .title-desk:nth-of-type(2) h2 {
       max-width:380px;
      }
+
+     .menu-aside {
+        display:block;
+     }
 }
 
 
@@ -46,6 +50,10 @@
     display:none;
   }
 
+  .wrapper-mobile {
+    display: block;
+}
+
   
 .input-mobile {
     opacity: 1;
@@ -53,4 +61,31 @@
     align-items:center;
 }
 }
+
+@media screen and (max-width:430px){
+
+  .input-mobile input[type=search] {
+    width:280px;
+  }
+}
+
+@media screen and (max-width:414px){
+
+  .input-mobile input[type=search] {
+    width:270px;
+  }
+
+  .cart-video img {
+    width:360px;
+    
+  }
+
+  .title-desk h2 {
+    font-size: 0.8rem;
+  }
+
+
+}
+
+
 /**/
