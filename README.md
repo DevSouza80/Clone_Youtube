@@ -35,7 +35,7 @@ O **YuTube Clone** é uma recriação da interface do YouTube, desenvolvida como
 
 ## 🖼️ Preview
 
-![YuTube Clone Screenshot](./assets/preview.png)
+![YuTube Clone Screenshot](./assets/interface-youTube.png)
 
 > *Interface do YuTube Clone replicando a Home do YouTube com sidebar, header e grid de vídeos.*
 
