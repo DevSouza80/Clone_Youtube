@@ -48,9 +48,7 @@ O **YuTube Clone** é uma recriação da interface do YouTube, desenvolvida como
 - [x] **Grid de vídeos** responsivo com cards de thumbnail, título, canal e visualizações
 - [x] **Hover effects** nos cards e botões, fiéis ao original
 - [x] **Layout responsivo** adaptado para diferentes tamanhos de tela
-- [x] **Modo escuro** replicando o tema dark do YouTube
-- [ ] Página de player de vídeo *(em breve)*
-- [ ] Filtros por categoria *(em breve)*
+
 
 ---
 
